@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+}
+
+/* Headings */
+.main-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section{
+  color: white;
+  background-color: #ff4c68;
+}
+.white-section{
+background-color: white;
+}
+/* title-section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  position: relative;
+}
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.Title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  right: 22%;
+  position: absolute;
+}
+
+/* Features Section*/
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-detail {
+  padding: 4.5%;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  padding: 10% 0 5% 0;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-description {
+  color: #afafaf;
+  padding: 5%;
+  font-size: .8rem;
+  font-family: 'Montserrat-light', sans-serif;
+  line-height: 2;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  line height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to Action */
+
+
+.cta-detail {
+  font-size: 3rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  padding-bottom: 20px;
+  line height: 2;
+  color: white;
+}
+
+/* footer-section */
+
+.footer-elements {
+  font-size: 1.5rem;
+  padding: 2% 2%;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+@media (max-width:1028px) {
+  .Title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+}
